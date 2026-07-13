@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.page-message
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(232, 232, 232);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.page-message-text
+{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: "Consolas", "Calibri", "Arial", sans-serif;
+    font-size: 12px;
+}
+
+.page-message-text a
+{
+    color: rgba(0, 0, 255, 0.5);
+    text-decoration: none;
+}
+
+.page-message-text a:hover
+{
+    color: rgba(0, 0, 255, 1);
+}
